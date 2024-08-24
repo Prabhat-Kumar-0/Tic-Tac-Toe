@@ -332,11 +332,11 @@ function GameArea() {
         </div>
         <div className="h-[20vh] flex items-center justify-center">
           {user === 1 && (
-            <h1 className="font-semibold text-4xl">Player 1 Turn (&#128938;)</h1>
+            <h1 className="font-semibold text-4xl">Player 1 Turn </h1>
           )}
           {user === 2 && (
             <h1 className="font-semibold text-4xl">
-              Player 2 Turn (&#128901;)
+              Player 2 Turn 
             </h1>
           )}
           {user === -1 && Winner === 1 && (
